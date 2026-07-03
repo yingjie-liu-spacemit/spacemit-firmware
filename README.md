@@ -26,13 +26,13 @@ See the U-Boot upstream patch series for each SoC:
 
 ## ESOS Firmware
 
-| Item | Detail |
-|------|--------|
-| File | `esos.itb` |
-| Description | Prebuilt RCPU firmware for K3 SoC |
-| Source | [spacemit-com/esos](https://github.com/spacemit-com/esos) |
-| Tag | `k3-br-v1.0.0` |
-| Commit | `65e455b7c9316d7140b3656de6fcf4907b02b545` |
+| Source | Tag | Commit |
+|--------|-----|--------|
+| [spacemit-com/esos](https://github.com/spacemit-com/esos) | `k3-br-v1.0.2` | `cd33a1a98d259f51e5cf28e766a532030a94e27d` |
+| [spacemit-com/esos-lite](https://github.com/spacemit-com/esos-lite) | `k3-br-v1.0.2` | `ca6c216e18d1d010ea1885805763ab699460974a` |
+
+The prebuilt `esos.itb` is stored at `k3/<tag>/esos.itb`, e.g.
+`k3/k3-br-v1.0.2/esos.itb`.
 
 ## Discussion
 
